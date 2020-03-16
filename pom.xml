@@ -1,0 +1,33 @@
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+						http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>vulnerable</groupId>
+	<artifactId>dummy</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+		<dependency>
+			<groupId>org.seasar.sastruts</groupId>
+			<artifactId>sa-struts</artifactId>
+			<version>1.0.4-sp9</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>java.net-Releases</id>
+			<name>Maven Java Net Releases</name>
+			<url>https://maven.java.net/content/repositories/releases/</url>
+		</repository>
+		<repository>
+			<id>maven.seasar.org</id>
+			<name>The Seasar Foundation Maven2 Repository</name>
+			<url>http://maven.seasar.org/maven2/</url>
+		</repository>
+	</repositories>
+
+</project>
